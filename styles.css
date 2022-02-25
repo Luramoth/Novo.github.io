@@ -18,21 +18,25 @@ header {
     width: 200px;
 }
 .title {
-    font-size: 100px;
+    font-size: 125px;
 }
 
 .header-logo {
     display: flex;
 	align-items: center;
 	gap: 20px;
-
+    
     background-color: rgb(78, 78, 78);
     border-radius: 25px;
 }
+
+/*Nav bar*/
 .nav-bar {
     display: flex;
 	align-items: center;
 	gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     background-color: rgb(78, 78, 78);
     border-radius: 25px;
@@ -40,7 +44,6 @@ header {
     font-size: 50px;
 }
 
-/*Nav bar*/
 .nav-bar a:link {
     background-color: rgb(39, 39, 39);
     padding: 5px;
